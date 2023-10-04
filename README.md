@@ -1,4 +1,4 @@
-# clinicadoidoso.com.br
+# mayarafurtado.paliar.br
 
 # Configurações do Ambiente de Desenvolvimento
 
