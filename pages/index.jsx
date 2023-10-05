@@ -1,11 +1,63 @@
-function LadingPage() {
+function LandingPage() {
   return (
     <div>
-      <h1>Landing Page - mayarafurtado.paliar.br</h1>
-      <p>This is the landing page for physiotherapist Mayara Furtado.</p>
-      <p>Stay tuned for more content.</p>
+      <section
+        id="home"
+        className="bg-gradient-to-r from-greenLight-paliar to-white h-screen"
+      >
+        <header>
+          <h1>Header1</h1>
+        </header>
+        <main>
+          <h1>Main1</h1>
+        </main>
+      </section>
+      <section
+        id="biografia"
+        className="bg-gradient-to-r from-greenLight-paliar to-white h-screen"
+      >
+        <header>
+          <h1>Header2</h1>
+        </header>
+        <main>
+          <h1>Main2</h1>
+        </main>
+      </section>
+      <section
+        id="clinica"
+        className="bg-gradient-to-r from-greenLight-paliar to-white h-screen"
+      >
+        <header>
+          <h1>Header3</h1>
+        </header>
+        <main>
+          <h1>Main3</h1>
+        </main>
+      </section>
+      <section
+        id="depoimentos"
+        className="bg-gradient-to-r from-greenLight-paliar to-white h-screen"
+      >
+        <header>
+          <h1>Header4</h1>
+        </header>
+        <main>
+          <h1>Main4</h1>
+        </main>
+      </section>
+      <section
+        id="contatos"
+        className="bg-gradient-to-r from-greenLight-paliar to-white h-screen"
+      >
+        <header>
+          <h1>Header5</h1>
+        </header>
+        <main>
+          <h1>Main5</h1>
+        </main>
+      </section>
     </div>
   );
 }
 
-export default LadingPage;
+export default LandingPage;
