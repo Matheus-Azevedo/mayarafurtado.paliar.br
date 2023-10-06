@@ -5,6 +5,7 @@ function LandingPage() {
         id="home"
         className="bg-gradient-to-r from-greenLight-paliar to-white h-screen"
       >
+        <div className="logo-right" />
         <header>
           <h1>Header1</h1>
         </header>
@@ -16,6 +17,7 @@ function LandingPage() {
         id="biografia"
         className="bg-gradient-to-r from-greenLight-paliar to-white h-screen"
       >
+        <div className="logo-left" />
         <header>
           <h1>Header2</h1>
         </header>
@@ -27,6 +29,7 @@ function LandingPage() {
         id="clinica"
         className="bg-gradient-to-r from-greenLight-paliar to-white h-screen"
       >
+        <div className="logo-center" />
         <header>
           <h1>Header3</h1>
         </header>
@@ -38,6 +41,7 @@ function LandingPage() {
         id="depoimentos"
         className="bg-gradient-to-r from-greenLight-paliar to-white h-screen"
       >
+        <div className="logo-right" />
         <header>
           <h1>Header4</h1>
         </header>
@@ -49,6 +53,7 @@ function LandingPage() {
         id="contatos"
         className="bg-gradient-to-r from-greenLight-paliar to-white h-screen"
       >
+        <div className="logo-left" />
         <header>
           <h1>Header5</h1>
         </header>
