@@ -1,3 +1,8 @@
+import Biography from "../components/Biography";
+import Clinic from "../components/Clinic";
+import Depositions from "../components/Depositions";
+import Home from "../components/Home";
+
 function LandingPage() {
   return (
     <div>
@@ -6,51 +11,31 @@ function LandingPage() {
         className="bg-gradient-to-r from-greenLight-paliar to-white h-screen"
       >
         <div className="logo-right" />
-        <header>
-          <h1>Header1</h1>
-        </header>
-        <main>
-          <h1>Main1</h1>
-        </main>
+        <Home />
       </section>
       <section
-        id="biografia"
+        id="biography"
         className="bg-gradient-to-r from-greenLight-paliar to-white h-screen"
       >
         <div className="logo-left" />
-        <header>
-          <h1>Header2</h1>
-        </header>
-        <main>
-          <h1>Main2</h1>
-        </main>
+        <Biography />
       </section>
       <section
-        id="clinica"
+        id="clinic"
         className="bg-gradient-to-r from-greenLight-paliar to-white h-screen"
       >
         <div className="logo-center" />
-        <header>
-          <h1>Header3</h1>
-        </header>
-        <main>
-          <h1>Main3</h1>
-        </main>
+        <Clinic />
       </section>
       <section
-        id="depoimentos"
+        id="depositions"
         className="bg-gradient-to-r from-greenLight-paliar to-white h-screen"
       >
         <div className="logo-right" />
-        <header>
-          <h1>Header4</h1>
-        </header>
-        <main>
-          <h1>Main4</h1>
-        </main>
+        <Depositions />
       </section>
       <section
-        id="contatos"
+        id="contacts"
         className="bg-gradient-to-r from-greenLight-paliar to-white h-screen"
       >
         <div className="logo-left" />
