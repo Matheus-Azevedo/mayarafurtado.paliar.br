@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>Mayara Furtado</title>
-        <link rel="icon" href="/imgs/faviconlogo.ico" />
+        <link rel="icon" href="../imgs/faviconlogo.png" />
       </Head>
       <Component {...pageProps} />
     </>
