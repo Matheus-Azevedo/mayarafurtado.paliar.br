@@ -2,35 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
-.logo-right {
+.logo {
   background-image: url("../imgs/logo2.png");
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
-  background-position: bottom right;
   background-size: contain;
   position: absolute;
   opacity: 0.1;
+}
+
+.logo-right {
+  background-position: bottom right;
 }
 
 .logo-center {
-  background-image: url("../imgs/logo2.png");
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
   background-position: center center;
-  background-size: contain;
-  position: absolute;
-  opacity: 0.1;
 }
 
 .logo-left {
-  background-image: url("../imgs/logo2.png");
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
   background-position: bottom left;
-  background-size: contain;
-  position: absolute;
-  opacity: 0.1;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    background-position: bottom center;
+  }
 }

@@ -10,35 +10,35 @@ function LandingPage() {
         id="home"
         className="bg-gradient-to-r from-greenLight-paliar to-white h-screen"
       >
-        <div className="logo-right" />
+        <div className="logo logo-right" />
         <Home />
       </section>
       <section
         id="biography"
         className="bg-gradient-to-r from-greenLight-paliar to-white h-screen"
       >
-        <div className="logo-left" />
+        <div className="logo logo-left" />
         <Biography />
       </section>
       <section
         id="clinic"
         className="bg-gradient-to-r from-greenLight-paliar to-white h-screen"
       >
-        <div className="logo-center" />
+        <div className="logo logo-center" />
         <Clinic />
       </section>
       <section
         id="depositions"
         className="bg-gradient-to-r from-greenLight-paliar to-white h-screen"
       >
-        <div className="logo-right" />
+        <div className="logo logo-right" />
         <Depositions />
       </section>
       <section
         id="contacts"
         className="bg-gradient-to-r from-greenLight-paliar to-white h-screen"
       >
-        <div className="logo-left" />
+        <div className="logo logo-left" />
         <header>
           <h1>Header5</h1>
         </header>
