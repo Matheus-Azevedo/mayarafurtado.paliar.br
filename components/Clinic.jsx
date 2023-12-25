@@ -2,7 +2,7 @@ function Clinic() {
   return (
     <main class="clinic-container-1">
       <div class="clinic-container-2">
-        <h1>Serviços</h1>
+        <h1>SERVIÇOS</h1>
         <ul>
           <li>Reabilitação Cardiopulmonar</li>
           <li>Reabilitação Oncológica</li>
@@ -21,9 +21,9 @@ function Clinic() {
         <li className="clinic-oncovida" />
       </div>
       <div class="clinic-container-4">
-        <h1>Atendimento</h1>
+        <h1>ATENDIMENTO</h1>
         <ul>
-          <li>PARTICULAR</li>
+          <li>Particular</li>
           <li className="clinic-geap-logo" />
           <li className="clinic-prevmed-logo" />
         </ul>

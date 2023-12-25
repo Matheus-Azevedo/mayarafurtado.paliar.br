@@ -32,7 +32,7 @@ function Home() {
         <div>
           <h1>
             Me chamo
-            <strong class="brown-paliar">Mayara Furtado</strong>,<br />
+            <strong class="brown-paliar"> Mayara Furtado</strong>,<br />
             e sou sua Fisioterapeuta.
             <br />
             Como posso ajudá-lo?
