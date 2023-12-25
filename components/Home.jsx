@@ -28,7 +28,7 @@ function Home() {
         </nav>
       </div>
       <div class="home-container-3">
-        <div class="home-photo"></div>
+        <div class="home-photo" />
         <div>
           <h1>
             Me chamo
