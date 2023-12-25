@@ -120,4 +120,5 @@ dist
 # Next.js build output
 .next
 
-# End of https://mrkandreev.name/snippets/gitignore-generator/#Node
+# Ignorar arquivos :Zone.Identifier
+**/*.Identifier

@@ -1,5 +1,6 @@
 import Biography from "../components/Biography";
 import Clinic from "../components/Clinic";
+import Contacts from "../components/Contacts";
 import Depositions from "../components/Depositions";
 import Home from "../components/Home";
 
@@ -39,12 +40,7 @@ function LandingPage() {
         className="bg-gradient-to-r from-greenLight-paliar to-white h-screen"
       >
         <div className="logo logo-left" />
-        <header>
-          <h1>Header5</h1>
-        </header>
-        <main>
-          <h1>Main5</h1>
-        </main>
+        <Contacts />
       </section>
     </div>
   );
