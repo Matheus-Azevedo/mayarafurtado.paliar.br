@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Link as ScrollLink } from "react-scroll";
 
 function Home() {
   return (
@@ -13,18 +13,18 @@ function Home() {
           </p>
         </div>
         <nav>
-          <Link href="#home">
-            <div>Home</div>
-          </Link>
-          <Link href="#biography">
+          <ScrollLink to="biography" smooth={true} duration={500}>
             <div>Biografia</div>
-          </Link>
-          <Link href="#clinic">
+          </ScrollLink>
+          <ScrollLink to="clinic" smooth={true} duration={500}>
             <div>Clínica</div>
-          </Link>
-          <Link href="#contacts">
+          </ScrollLink>
+          <ScrollLink to="depositions" smooth={true} duration={500}>
+            <div>Depoimentos</div>
+          </ScrollLink>
+          <ScrollLink to="contacts" smooth={true} duration={500}>
             <div>Contato</div>
-          </Link>
+          </ScrollLink>
         </nav>
       </div>
       <div class="home-container-3">
