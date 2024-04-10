@@ -5,3 +5,7 @@ services:
       - ".env"
     ports:
       - "3306:3306"
+    volumes:
+        - "./database_paliar:/var/lib/mysql"
+volumes:
+    database_paliar:
