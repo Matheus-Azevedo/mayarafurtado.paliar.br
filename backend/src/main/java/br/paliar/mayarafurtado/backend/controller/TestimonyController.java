@@ -1,11 +1,11 @@
 package br.paliar.mayarafurtado.backend.controller;
 
+import br.paliar.mayarafurtado.backend.service.TestimonyService;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import br.paliar.mayarafurtado.backend.dto.request.TestimonyRequestDTO;
 import br.paliar.mayarafurtado.backend.dto.response.TestimonyResponseDTO;
-import br.paliar.mayarafurtado.backend.service.TestimonyService;
 import jakarta.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
